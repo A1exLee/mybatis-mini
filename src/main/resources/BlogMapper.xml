@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mapper namespace="com.alexlee.blog.BlogMapper" entity="com.alexlee.blog.Blog">
+    <select id="selectByConditionLimit1">
+        select * from blog limit 1 ;
+    </select>
+</Mapper>
